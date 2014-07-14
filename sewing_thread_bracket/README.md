@@ -13,7 +13,7 @@ Zylindrisch 10mm aussen, 5mm innen.
 *Passt IN die Garnrolle und hält dort halbwegs, passt wie zu erwarten NICHT auf die Achse. 
 Wurde mit Sandpapier aufgeweitet, sitzt nun sehr fest.*
 
-![Anwendung V1](UsageV1.jpg "Nuzungsbeispiel Version 1")
+![Anwendung V1](imsages/UsageV1.jpg "Nuzungsbeispiel Version 1")
 
 ### Zweite Version:
 
@@ -21,4 +21,4 @@ Konisch, aussen 8mm auf 16mm, innen 6mm.
 
 *Sitzt gut vor der Garnrolle, hat aber auf der Achse zu viel Spiel.*
 
-![Anwendung V2](UsageV2.jpg "Nuzungsbeispiel Version 2")
+![Anwendung V2](images/UsageV2.jpg "Nuzungsbeispiel Version 2")
