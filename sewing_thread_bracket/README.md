@@ -1,18 +1,20 @@
-Ein Nähgarnhalter für eine S***** Nähmaschine.
+## Ein NÃ¤hgarnhalter fÃ¼r eine NÃ¤hmaschine der Firma mit dem roten S.
 
-Soll die Nähgarnrolle vor dem herunterrutschen von ihrer Achse bewahren.
+Soll die NÃ¤hgarnrolle vor dem herunterrutschen von ihrer Achse bewahren.
 
 Achsendurchmesser: 6mm
-Nähgarnrollen-Innendurchmesser: 10mm
+NÃ¤hgarnrollen-Innendurchmesser: 10mm
 
 
-Erste Version: Zylindrisch 10mm aussen, 5mm innen.
+### Erste Version:
 
-Passt IN die Garnrolle und hält dort halbwegs, passt wie zu erwarten NICHT auf die Achse. 
-Wurde mit Sandpapier aufgeweitet, sitzt nun sehr fest.
+Zylindrisch 10mm aussen, 5mm innen.
 
-Zweite Version:
+*Passt IN die Garnrolle und hÃ¤lt dort halbwegs, passt wie zu erwarten NICHT auf die Achse. 
+Wurde mit Sandpapier aufgeweitet, sitzt nun sehr fest.*
+
+### Zweite Version:
 
 Konisch, aussen 8mm auf 16mm, innen 6mm.
 
-Sitzt gut vor der Garnrolle, hat aber auf der Achse zu viel Spiel.
+*Sitzt gut vor der Garnrolle, hat aber auf der Achse zu viel Spiel.*
