@@ -1,6 +1,6 @@
-##3D Drucker
+##Bytespeicher - 3D Drucker
 
-[link to english version](#3d_printer)
+[link to english version](#bytespeicher---3d-printer)
 
 Wir sammeln hier sowohl Dokumente zum 3D Drucker selbst als auch zu druckbaren Objekte.
 Im [Wiki](https://github.com/Bytespeicher/3D_Printer/wiki) gibt es eine [Wunschliste](https://github.com/Bytespeicher/3D_Printer/wishlist).
@@ -34,9 +34,9 @@ Optional: Bitte beschreibe die Probleme die du hattest, Reparaturen oder Modifik
 
 
 ----------------------------------------------------------------------------------------------------
-##3D Printer
+##Bytespeicher - 3D Printer
 
-[Link zur deutschen Version](#3d_drucker)
+[Link zur deutschen Version](#bytespeicher---3d-drucker)
 
 Both the 3D printer development itself + printed parts and projects
 There is a [wishlist](https://github.com/Bytespeicher/3D_Printer/wishlist) in the [wiki](https://github.com/Bytespeicher/3D_Printer/wiki).
