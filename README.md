@@ -30,8 +30,11 @@ Optional: Bitte beschreibe die Probleme die du hattest, Reparaturen oder Modifik
 - `name_deines_projekts/references`  
     - *für Referenzdaten wie Zeichnungen, Skizzen, Referenzfotos, etc.*  
 
+### Markierungen
+Wenn ihr wollt, dass euch jemand im Space euer Objekt druckt, z.B. weil ihr selten dort seid oder keine Zeit habt,
+legt eine Datei namens `PLEASE_PRINT_ME` in euer Projektverzeichnis. In der Datei könnt ihr eure gewünschten Druckparameter angeben. Achtung: Das Material geht auf eure Kosten.
 
-
+Wenn ihr keine Ahnung vom 3D-Design oder CAD habt, aber gern etwas gedruckt haben möchtet, markiert euer Objekt in der [Wunschliste](https://github.com/Bytespeicher/3D_Printer/wishlist) mit einem `PLEASE_DESIGN_ME` oder euer Projektverzeichnis mit einer `PLEASE_DESIGN_ME` Datei. Das klappt natürlich nur, wenn ihr genug Referenzmaterial liefert und/oder das Projekt gut beschreibt. (Und jemand Langeweile hat.)
 
 ----------------------------------------------------------------------------------------------------
 ##Bytespeicher - 3D Printer
@@ -64,3 +67,10 @@ Optional: Please add a description of encountered problems, funny stories, repai
     - *for photos documenting the design, build and test process*  
 - `name_of_your_project/references`  
     - *for reference files like 2D-drawings, CAD-files, reference photos etc.*  
+
+### markings
+If you want your object printed by someone in the hackerspace (because e.g. you can't find the time), create a file called
+ `PLEASE_PRINT_ME` in your project folder. You can detail your desired print parameters in the file. Beware: The material costs are on you.
+ 
+If you don't know anything about 3D-design or CAD but want an object printed, mark your [wishlist](https://github.com/Bytespeicher/3D_Printer/wishlist) entry with
+the words `PLEASE_DESIGN_ME` or create a file of the same name in your project folder. This only works if you detailed your project enough and/or if you've given enough reference material. (Also there needs to be someone with too much free time.)
