@@ -1,4 +1,4 @@
-## Kabelhalterung zum Aufh�ngen
+## Kabelhalterung zum Aufhängen
 
 Eine Kabelhalterung, die an eine schmale Kante am Tisch gehangen wird. Das aktuelle Design fässt etwa drei bis vier aufgewickelte, dickere Kabel(z.B. Grafikkabel wie VGA oder HDMI).
 
