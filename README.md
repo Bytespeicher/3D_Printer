@@ -34,7 +34,7 @@ Optional: Bitte beschreibe die Probleme die du hattest, Reparaturen oder Modifik
 Wenn ihr wollt, dass euch jemand im Space euer Objekt druckt, z.B. weil ihr selten dort seid oder keine Zeit habt,
 legt eine Datei namens `PLEASE_PRINT_ME` in euer Projektverzeichnis. In der Datei könnt ihr eure gewünschten Druckparameter angeben. Achtung: Das Material geht auf eure Kosten.
 
-Wenn ihr keine Ahnung vom 3D-Design oder CAD habt, aber gern etwas gedruckt haben möchtet, markiert euer Objekt in der [Wunschliste](https://github.com/Bytespeicher/3D_Printer/wishlist) mit einem `PLEASE_DESIGN_ME` oder euer Projektverzeichnis mit einer `PLEASE_DESIGN_ME` Datei. Das klappt natürlich nur, wenn ihr genug Referenzmaterial liefert und/oder das Projekt gut beschreibt. (Und jemand Langeweile hat.)
+Wenn ihr keine Ahnung vom 3D-Design oder CAD habt, aber gern etwas gedruckt haben möchtet, markiert euer Objekt in der [Wunschliste](https://github.com/Bytespeicher/3D_Printer/wiki/wishlist) mit einem `PLEASE_DESIGN_ME` oder euer Projektverzeichnis mit einer `PLEASE_DESIGN_ME` Datei. Das klappt natürlich nur, wenn ihr genug Referenzmaterial liefert und/oder das Projekt gut beschreibt. (Und jemand Langeweile hat.)
 
 ----------------------------------------------------------------------------------------------------
 ##Bytespeicher - 3D Printer
