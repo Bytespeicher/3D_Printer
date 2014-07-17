@@ -72,5 +72,5 @@ Optional: Please add a description of encountered problems, funny stories, repai
 If you want your object printed by someone in the hackerspace (because e.g. you can't find the time), create a file called
  `PLEASE_PRINT_ME` in your project folder. You can detail your desired print parameters in the file. Beware: The material costs are on you.
  
-If you don't know anything about 3D-design or CAD but want an object printed, mark your [wishlist](https://github.com/Bytespeicher/3D_Printer/wishlist) entry with
+If you don't know anything about 3D-design or CAD but want an object printed, mark your [wishlist](https://github.com/Bytespeicher/3D_Printer/wiki/wishlist) entry with
 the words `PLEASE_DESIGN_ME` or create a file of the same name in your project folder. This only works if you detailed your project enough and/or if you've given enough reference material. (Also there needs to be someone with too much free time.)
