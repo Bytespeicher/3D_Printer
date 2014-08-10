@@ -6,3 +6,4 @@
 ### Version 1 
 
 - uploaded reference photos of the original adapters
+- extracted lines from photos
