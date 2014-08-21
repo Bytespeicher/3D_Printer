@@ -36,6 +36,9 @@ legt eine Datei namens `PLEASE_PRINT_ME` in euer Projektverzeichnis. In der Date
 
 Wenn ihr keine Ahnung vom 3D-Design oder CAD habt, aber gern etwas gedruckt haben möchtet, markiert euer Objekt in der [Wunschliste](https://github.com/Bytespeicher/3D_Printer/wiki/wishlist) mit einem `PLEASE_DESIGN_ME` oder euer Projektverzeichnis mit einer `PLEASE_DESIGN_ME` Datei. Das klappt natürlich nur, wenn ihr genug Referenzmaterial liefert und/oder das Projekt gut beschreibt. (Und jemand Langeweile hat.)
 
+### Lizenz
+Alle Bilder, Modelle und Refrenzmaterialien, die hier hochgeladen werden, stehe automatisch unter CC-BY-SA ([Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz](https://creativecommons.org/licenses/by-sa/4.0/)), es sei denn, sie werden im Projektunterverzeichnis anders gekennzeichnet. Diese Kennzeichnung kann am/im File selbst oder in der gemeinsamen README.md erfolgen. Als Namensnennung gilt die Bezeichnung "Bytespeicher Erfurt - 3D Printer Repo" sowie der Name des letzten editierenden Nutzers. Auf Webmedien jeweils mit "Bytespeicher" als Link zu bytespeicher.org und dem Nutzernamen als Link zur Github-Seite.
+
 ----------------------------------------------------------------------------------------------------
 ##Bytespeicher - 3D Printer
 
@@ -74,3 +77,6 @@ If you want your object printed by someone in the hackerspace (because e.g. you 
  
 If you don't know anything about 3D-design or CAD but want an object printed, mark your [wishlist](https://github.com/Bytespeicher/3D_Printer/wiki/wishlist) entry with
 the words `PLEASE_DESIGN_ME` or create a file of the same name in your project folder. This only works if you detailed your project enough and/or if you've given enough reference material. (Also there needs to be someone with too much free time.)
+
+### license
+All imaged, models or reference material uploaded here is set under CC-BY-SA ([Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)), except they are marked otherwise either directly in the files or with a README.md in the projects sub-folder. As atribution, please use "Bytespeicher Erfurt - 3D Printer Repo" in addition to the last committers name. If publishing to the web, please link to the license, to bytespeicher.org and to this/the users github page.
