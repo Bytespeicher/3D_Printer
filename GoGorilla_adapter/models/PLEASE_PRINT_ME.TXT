@@ -1,0 +1,3 @@
+Please print with enclosed printer settings.
+Set filiament diameter and temps according to used material.
+
