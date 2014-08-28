@@ -3,7 +3,7 @@
 [link to english version](#bytespeicher---3d-printer)
 
 Wir sammeln hier sowohl Dokumente zum 3D Drucker selbst als auch zu druckbaren Objekte.
-Im [Wiki](https://github.com/Bytespeicher/3D_Printer/wiki) gibt es eine [Wunschliste](https://github.com/Bytespeicher/3D_Printer/wishlist).
+Im [Wiki](https://github.com/Bytespeicher/3D_Printer/wiki) gibt es eine [Wunschliste](https://github.com/Bytespeicher/3D_Printer/wiki/Wishlist).
 
 
 Wir haben momentan Zugriff auf einen [Felix 1.5](http://shop.felixprinters.com/) 3D Drucker.
@@ -45,7 +45,7 @@ Alle Bilder, Modelle und Refrenzmaterialien, die hier hochgeladen werden, stehe 
 [Link zur deutschen Version](#bytespeicher---3d-drucker)
 
 Both the 3D printer development itself + printed parts and projects
-There is a [wishlist](https://github.com/Bytespeicher/3D_Printer/wishlist) in the [wiki](https://github.com/Bytespeicher/3D_Printer/wiki).
+There is a [wishlist](https://github.com/Bytespeicher/3D_Printer/wiki/Wishlist) in the [wiki](https://github.com/Bytespeicher/3D_Printer/wiki).
 
 We own a FELIX 1.5 printer. 
 
