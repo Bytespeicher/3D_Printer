@@ -1,0 +1,5 @@
+Please print with enclosed printer settings. (0.15mm)
+Set filiament diameter and temps according to used material.
+
+You may use the pre-sliced .gco file.
+
