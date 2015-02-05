@@ -12,4 +12,5 @@
 
 - stl is not manifold by intention. 
 - Slice with 0% infill and perimeters only. 
-- Usage of skirt highly encouraged
+- Use Slic3r with verbose gcode output to make the python script work
+- Usage of brim highly encouraged
