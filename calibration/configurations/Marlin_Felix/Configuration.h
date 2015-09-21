@@ -36,7 +36,9 @@
 #define SERIAL_PORT 0
 
 // This determines the communication speed of the printer
-#define BAUDRATE 230400
+//#define BAUDRATE 230400  //use this for fastest ANSI-compatible speed (for strict linux machines)
+//#define BAUDRATE 115200 //use this for default speed (non-ANSI)
+#define BAUDRATE 76800 // use this for most stable connection
 
 // This enables the serial port associated to the Bluetooth interface
 //#define BTENABLED              // Enable BT interface on AT90USB devices
@@ -161,15 +163,15 @@
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 // Ultimaker
     #define  DEFAULT_Kp 22.2
-    #define  DEFAULT_Ki 1.08
-    #define  DEFAULT_Kd 114
+    #define  DEFAULT_Ki 1.08  
+    #define  DEFAULT_Kd 114  
 
 // MakerGear
 //    #define  DEFAULT_Kp 7.0
-//    #define  DEFAULT_Ki 0.1
-//    #define  DEFAULT_Kd 12
+//    #define  DEFAULT_Ki 0.1  
+//    #define  DEFAULT_Kd 12  
 
-// Mendel Parts V9 on 12V
+// Mendel Parts V9 on 12V    
 //    #define  DEFAULT_Kp 63.0
 //    #define  DEFAULT_Ki 2.25
 //    #define  DEFAULT_Kd 440
@@ -187,7 +189,7 @@
 // If this is enabled, find your own PID constants below.
 //#define PIDTEMPBED
 //
-//#define BED_LIMIT_SWITCHING
+#define BED_LIMIT_SWITCHING
 
 // This sets the max power delivered to the bed, and replaces the HEATER_BED_DUTY_CYCLE_DIVIDER option.
 // all forms of bed control obey this (PID, bang-bang, bang-bang with hysteresis)
@@ -248,15 +250,15 @@ your extruder heater takes 2 minutes to hit the target on heating.
 // uncomment the 2 defines below:
 
 // Parameters for all extruder heaters
-#define THERMAL_RUNAWAY_PROTECTION_PERIOD 40 //in seconds
-#define THERMAL_RUNAWAY_PROTECTION_HYSTERESIS 4 // in degree Celsius
+#define THERMAL_RUNAWAY_PROTECTION_PERIOD 30 //in seconds
+#define THERMAL_RUNAWAY_PROTECTION_HYSTERESIS 5 // in degree Celsius
 
 // If you want to enable this feature for your bed heater,
 // uncomment the 2 defines below:
 
 // Parameters for the bed heater
-#define THERMAL_RUNAWAY_PROTECTION_BED_PERIOD 20 //in seconds
-#define THERMAL_RUNAWAY_PROTECTION_BED_HYSTERESIS 2 // in degree Celsius
+//#define THERMAL_RUNAWAY_PROTECTION_BED_PERIOD 20 //in seconds
+//#define THERMAL_RUNAWAY_PROTECTION_BED_HYSTERESIS 2 // in degree Celsius
 //===========================================================================
 
 
