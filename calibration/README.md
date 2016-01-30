@@ -14,3 +14,8 @@
 - Slice with 0% infill and perimeters only. 
 - Use Slic3r with verbose gcode output to make the python script work
 - Usage of brim highly encouraged
+
+## CTRL-V testobject v2
+
+- from https://www.thingiverse.com/thing:704409
+- Test your 3D printer! by ctrlV is licensed under the Creative Commons - Attribution - Non-Commercial license.
