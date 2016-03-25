@@ -1,8 +1,8 @@
-show_key = 1;
+show_key = 0;
 show_bottom = 1;
-show_top = 1;
+show_top = 0;
 
-module pin(pos=[0,0,0], height=5, r1=1, r2=0.75, res=60) {
+module pin(pos=[0,0,0], height=7, r1=2, r2=1.5, res=60) {
     translate(pos) {
         cylinder(
             h=height,
@@ -11,10 +11,10 @@ module pin(pos=[0,0,0], height=5, r1=1, r2=0.75, res=60) {
             center=false,
             $fn=res
         );
-    };    
-}
+    };
+};
 
-pin_height = 6;
+pin_height = 7;
 pin_radius_bottom = 1.2;
 pin_radius_top = 0.75;
 hole_resolution = 150;
@@ -22,14 +22,15 @@ pin_resolution = 60;
 
 if (show_key) {
     // original keychain part
+    color([1,1,0,0.8])
     difference() {
         union() {
             union() {
                 difference() {
                     union() {
                         // keychain part
-                        translate([6, 24, 0])
-                            cylinder(h=2.1, r1=10, r2=10);
+                        translate([6, 26, 0])
+                            cylinder(h=2.1, r1=11, r2=11);
                         
                         // USB-Part
                         cube(
@@ -57,32 +58,36 @@ if (show_key) {
 
 if (show_bottom) {
     // bottom part
-    translate([-6, 14, -1]) {
+    color([0,1,1,0.3])
+    translate([-6, 12, -1]) {
         
         union() {
             difference() {
-                cube([24, 50, 2]);
+                cube([24, 52, 2]);
                 
                 // fitting space for original keychain part
-                translate([2, 0, 1]) {
-                    cube([20, 22, 2]);
+                translate([3.5, -0.01, 1]) {
+                    cube([17, 24, 2]);
                 }
                 
                 // new keychain hole
-                translate([12, 40, -1]) {
-                    cylinder(h=5, r1=4, r2=4, center=false, $fn=hole_resolution);
+                translate([12, 42, -1]) {
+                    cylinder(
+                        h=5, r1=4, r2=4,
+                        center=false, $fn=hole_resolution
+                    );
                 };
             };
             
             // spike through hole in keychain part
             // should hold the key in place
-            pin([12, 16, 0], height=pin_height, r1=.75, r2=.65);
+            pin([12, 18, 0], height=pin_height, r1=.8, r2=.8);
             
             // connection pins
 
             // bottom row
-            pin([4.5, 1.5, 0], res=pin_resolution);
-            pin([19.5, 1.5, 0], res=pin_resolution);
+            pin([4, 4.5, 0], r1=1.8, r2=1.4, res=pin_resolution);
+            pin([20, 4.5, 0], r1=1.8, r2=1.4, res=pin_resolution);
 
             // center row
             pin([4, 30, 0], res=pin_resolution);
@@ -97,28 +102,32 @@ if (show_bottom) {
 
 if (show_top) {
     // top part
+    color([1,0,1,0.3])
     rotate([0, 180, 0])
-    translate([-18, 14, -10]) {
+    translate([-18, 12, -3]) {
         difference() {
-            cube([24, 50, 2]);
+            cube([24, 52, 2]);
             
             // fitting space for original keychain part
-            translate([2, 0, 1]) {
-                cube([20, 22, 2]);
+            translate([3.5, -0.01, 1]) {
+                cube([17, 24, 2]);
             }
             
             // new keychain hole
-            translate([12, 40, -1]) {
-                cylinder(h=5, r1=4, r2=4, center=false, $fn=30);
+            translate([12, 42, -1]) {
+                cylinder(
+                    h=5, r1=4, r2=4,
+                    center=false, $fn=hole_resolution
+                );
             };
             
             // spike through hole in keychain part
             // should hold the key in place
-            pin([12, 16, 0], height=pin_height, r1=.75, r2=.65);
+            pin([12, 18, 0], height=pin_height, r1=.8, r2=.8);
             
             // bottom row
-            pin([4, 1.5, 0], res=pin_resolution);
-            pin([20, 1.5, 0], res=pin_resolution);
+            pin([4, 4.5, 0], r1=1.8, r2=1.4, res=pin_resolution);
+            pin([20, 4.5, 0], r1=1.8, r2=1.4, res=pin_resolution);
 
             // center row
             pin([4, 30, 0], res=pin_resolution);
