@@ -1,6 +1,8 @@
-show_key = 0;
+show_key = 1;
 show_bottom = 1;
-show_top = 0;
+show_top = 1;
+show_cap = 1;
+show_cap_back = 1;
 
 module pin(pos=[0,0,0], height=7, r1=2, r2=1.5, res=60) {
     translate(pos) {
@@ -22,7 +24,7 @@ pin_resolution = 60;
 
 if (show_key) {
     // original keychain part
-    color([1,1,0,0.8])
+    color([1,1,1,1])
     difference() {
         union() {
             union() {
@@ -138,4 +140,37 @@ if (show_top) {
             pin([20, 45, 0], res=pin_resolution);
         };
     };
+}
+
+if (show_cap) {
+    color([0.5, 0.7, 1, 0.8])
+    translate([-8, -5, -5]) {
+        difference() {
+            cube([28, 28, 10]);
+            
+            translate([1.9,5,2])
+                cube([24.2, 24, 6]);
+        }
+    }
+}
+
+if (show_cap_back) {   
+    color([1, 0.7, 0.5, 0.8])
+    rotate([0,0,180])
+    translate([-20, -70, -5]) {
+        difference() {
+            cube([28, 47, 10]);
+            
+            translate([1.9,5,2])
+                cube([24.2, 50, 6]);
+            
+            // new keychain hole
+            translate([14, 16, -1]) {
+                cylinder(
+                    h=28, r1=4, r2=4,
+                    center=false, $fn=hole_resolution
+                );
+            };
+        }
+    }
 }
