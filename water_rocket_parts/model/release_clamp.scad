@@ -1,40 +1,46 @@
 $fa = 1;
 $fs = 1;
 
+inner_diam = 42.5;
+thickness = 8;
+height = 60;
+latch_width = 12;
+hole_diam = 4;
 
+box_dim = 1.3 * (inner_diam + thickness);
 
 
 difference() {	
 
 	union(){
-		translate([-35,-35,0]){
-			cube([70,70,60]);
+		translate([-box_dim/2, -box_dim/2, 0]){
+			cube([box_dim, box_dim, height]);
 		}
-		translate([-6,-35,60-6]){
-			cube([12,60,12]);
+		translate([-latch_width/2, -box_dim/2, height-latch_width/2]){
+			cube([latch_width, box_dim, latch_width]);
 		}
-		translate([0, 26,60+6]){
-			rotate([90,0,0]){
-				cylinder(60, d=12);
+		translate([0, box_dim/2, height + latch_width/2]){
+			rotate([90, 0, 0]){
+				cylinder(box_dim, d=latch_width);
 			}
 		}
 	}
 
-	translate([0, 26,60+6]){
-			rotate([90,0,0]){
-				cylinder(60, d=4);
+	translate([0, box_dim/2, height + latch_width/2]){
+			rotate([90, 0, 0]){
+				cylinder(box_dim, d=hole_diam);
 			}
 		}
 
-	translate([0,0,-10]){
-		cylinder(1000, d=42.5, center=[0,0,-10]);
+	translate([0, 0, -10]){
+		cylinder(1.4 * (height + latch_width), d=inner_diam);
 	}
 	difference() {
-		translate([0,0,-10]){
-			cylinder(1000, d=200);
+		translate([0, 0, -10]){
+			cylinder(1.4 * (height + latch_width), d = 2 * box_dim);
 		}
-		translate([0,0,-11]){
-			cylinder(1005, d=42.5+8 );
+		translate([0, 0, -11]){
+			cylinder(1.5 * (height + latch_width), d = inner_diam + thickness );
 		}
 	}
 
