@@ -1,11 +1,17 @@
+// minimum angle
 $fa = 1;
-$fs = 1;
+$fs = 1; 
 
-inner_diam = 42.5;
-thickness = 8;
-height = 60;
-latch_width = 12;
-hole_diam = 4;
+// inner diameter of the tube
+inner_diam = 42.5; // [10.0:100.0]
+// thickness of the tube walls
+thickness = 8; // [1:20]
+// height (without the latches)
+height = 60; // [10:5:300]
+// height and width of the latches
+latch_width = 12; // [5:30]
+// latch hole diameter
+hole_diam = 4; // [0.5:10]
 
 box_dim = 1.3 * (inner_diam + thickness);
 
