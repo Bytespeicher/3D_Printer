@@ -19,15 +19,23 @@ cut_depth = 12; // [8.0:0.5:15]
 
 
 
-
+module latch(){
+	difference() {
+		cube([mount_length, mount_width, mount_height]);
+		translate([-1, -1, 1+mount_height/2])
+			cube([mount_length+2, cut_depth+1, 1+mount_height/2]);
+	}
+}
 
 union() {
-	translate([65,0,-30])
-		rotate([0,60,0])
+	translate([65, 0, -30])
+		rotate([0, 60, 0])
 			cube([35, inner_width, 120], center=true);
 
-	translate([0,inner_width/2,0])
-		cube([mount_length, mount_width, mount_height]);
-	translate([0,-(mount_width + inner_width/2),0])
-		cube([mount_length, mount_width, mount_height]);
+	translate([0, inner_width/2, 0])		 
+		latch();		
+		
+	translate([0, -(inner_width/2), 0])
+		mirror([0, 1, 0])
+			latch();
 	}
