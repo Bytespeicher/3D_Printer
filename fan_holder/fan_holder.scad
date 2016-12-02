@@ -1,13 +1,7 @@
 $fn = 128;
 
-size = 10;
-
-translate([0, 0, 10]) {
-  difference() {
-
-    
-  }
-}
+size = 6;
+hole_size = 4;
 
 difference() {
   union() {
@@ -16,25 +10,25 @@ difference() {
     }
     difference() {
       hull() {
-        translate([-size*2-5, 0, 0]) {
+        translate([-size*2+2, 0, 0]) {
           cylinder(r=size+2, h=10);
         }
 
-        translate([size*2+5, 0, 0]) {
+        translate([size*2-2, 0, 0]) {
           cylinder(r=size+2, h=10);
         }
       }
       
-      translate([-size*2-5, 0, -1]) {
-        cylinder(h=12, r=4);
+      translate([-size*2+2, 0, -1]) {
+        cylinder(h=12, r=hole_size/2);
       }
       
-      translate([+size*2+5, 0, -1]) {
-        cylinder(h=12, r=4);
+      translate([+size*2-2, 0, -1]) {
+        cylinder(h=12, r=hole_size/2);
       }
     }
   }
   translate([0, 0, -1]) {
-    cylinder(h=62, r=4);
+    cylinder(h=62, r=hole_size/2);
   }
 }
