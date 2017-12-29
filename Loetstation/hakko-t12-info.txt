@@ -1,0 +1,14 @@
+Gehäuse für China-Lötstation mit Hakko-T12 Lötspitzen mit integriertem Heizelement.
+
+http://www.ebay.de/itm/161945409811
+
+zus. material:
+reichelt trafo art nr. EI66/23 118
+KAZU 5R2 Kabelzugentlastung
+Brückengleichrichter FBU4G
+2x1000uF Siebelko 35V
+Eurostecker-anschlusskabel
+wippschalter 1polig aus z.b. reichelt WIPPE 1801.6102
+
+3d konstruktion von gafu
+cc-by-sa

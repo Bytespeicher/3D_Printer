@@ -5,17 +5,17 @@ hole_size = 4;
 
 difference() {
   union() {
-    translate([0, 0, 10]) {
+    translate([0, 0, 5]) {
       cylinder(h=50, r=size);
     }
     difference() {
       hull() {
         translate([-size*2+2, 0, 0]) {
-          cylinder(r=size+2, h=10);
+          cylinder(r=size+2, h=5);
         }
 
         translate([size*2-2, 0, 0]) {
-          cylinder(r=size+2, h=10);
+          cylinder(r=size+2, h=5);
         }
       }
       

@@ -1,0 +1,1 @@
+import("T-RexSkull_Skull_fixed.stl", convexity=3);

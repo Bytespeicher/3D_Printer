@@ -48,8 +48,9 @@ module pin_header( height=12, upper=7, lower=3, rows=3, cols=2, male = 1 ) {
 						translate( [0,0, (upper - ( height/2 )) + cl ] ) {
 							union() {
 								cube( [0.64,0.64,height], center=true );
-								translate( [0,0, height/2 ] ) scale( 0.64 ) _pin_point();
-								translate( [0,0, -height/2 ] ) scale( 0.64 )	rotate([180,0,0] )_pin_point();
+                                // commented out for performance reasons(like holy f, this lags!)
+								//translate( [0,0, height/2 ] ) scale( 0.64 ) _pin_point();
+								//translate( [0,0, -height/2 ] ) scale( 0.64 )	rotate([180,0,0] )_pin_point();
 							}
 						}
 					}
@@ -66,8 +67,9 @@ module pin_header( height=12, upper=7, lower=3, rows=3, cols=2, male = 1 ) {
 							translate( [0,0, upper/2 ]) {
 								difference(){	
 									cube( [ cl, cl, upper ], center=true );
-								cube( [0.64,0.64,height], center=true );
-									translate( [0,0,.01+upper/2] ) rotate([180,0,0] ) _pin_point();
+                                    cube( [0.64,0.64,height], center=true );
+                                    // commented out for performance reasons(like holy f, this lags!)
+									//translate( [0,0,.01+upper/2] ) rotate([180,0,0] ) _pin_point();
 								}
 
 							}
@@ -76,7 +78,8 @@ module pin_header( height=12, upper=7, lower=3, rows=3, cols=2, male = 1 ) {
 						translate( [0,0, -lower/2 ] ) {
 							union() {
 								cube( [0.64,0.64,lower], center=true );
-								translate( [0,0, -lower/2 ] ) scale( 0.64 )	rotate([180,0,0] )_pin_point();
+                                // commented out for performance reasons(like holy f, this lags!)
+								//translate( [0,0, -lower/2 ] ) scale( 0.64 )	rotate([180,0,0] )_pin_point();
 							}
 						}
 					}
@@ -88,9 +91,10 @@ module pin_header( height=12, upper=7, lower=3, rows=3, cols=2, male = 1 ) {
 }
 
 module _pin_point() {
-	translate( [-0.5,-0.5, 0])
-		polyhedron( 
+	translate( [-0.5,-0.5, 0]) {
+		polyhedron(
 			points=[[0,0,0],[0,1,0],[1,1,0],[1,0,0],[0.5,0.5,0.5]], 
 			faces=[[0,1,2],[0,2,3],[0,1,4],[1,2,4],[2,3,4],[3,0,4]],
 			convexity = 20);
+    }
 }

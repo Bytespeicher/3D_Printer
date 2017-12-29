@@ -94,22 +94,22 @@ module micro_sd_slot() {
     }
 }
 
-module raspberry_holes(h=2) {
+module raspberry_holes(h=2, r=rpi_mount_hole_radius) {
     width = RASPBERRY_DIMENSIONS[0];
     length = RASPBERRY_DIMENSIONS[1];
     height = RASPBERRY_DIMENSIONS[2];
     
-    translate([1.5+rpi_mount_hole_radius , 1.5+rpi_mount_hole_radius , -0.1])
-        cylinder(h=h, r=rpi_mount_hole_radius, $fn=32);
+    translate([3.5 , 3.5, -0.1])
+        cylinder(h=h, r=r, $fn=32);
     
-    translate([width-1.5-rpi_mount_hole_radius, 1.5+rpi_mount_hole_radius, -0.1])
-        cylinder(h=h, r=rpi_mount_hole_radius, $fn=32);
+    translate([width-3.5, 3.5, -0.1])
+        cylinder(h=h, r=r, $fn=32);
     
-    translate([1.5+rpi_mount_hole_radius, 60+rpi_mount_hole_radius, -0.1])
-        cylinder(h=h, r=rpi_mount_hole_radius, $fn=32);
+    translate([3.5, 62, -0.1])
+        cylinder(h=h, r=r, $fn=32);
     
-    translate([width-1.5-rpi_mount_hole_radius, 60+rpi_mount_hole_radius, -0.1])
-        cylinder(h=h, r=rpi_mount_hole_radius, $fn=32);
+    translate([width-3.5, 62, -0.1])
+        cylinder(h=h, r=r, $fn=32);
 }
 
 module raspberry_display() {
