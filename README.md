@@ -1,5 +1,11 @@
 ##Bytespeicher - 3D Drucker
 
+**CAUTION: We have moved all of our git presence to [codeberg](https://codeberg.org/technikkultur-erfurt). This repo is an archive.**
+
+If you want to maintain this code, feel free to either fork this repository or migrate it to the group on [codeberg](https://codeberg.org/technikkultur-erfurt).
+
+---
+
 [link to english version](#bytespeicher---3d-printer)
 
 Wir sammeln hier sowohl Dokumente zum 3D Drucker selbst als auch zu druckbaren Objekte.
